@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.nav{
+    width: 960px;
+    height: auto;
+    background: #000;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a {
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: yellow;
+    background-color: red;
+}
+.nav ul li ul {
+    position: absolute;
+    background: #000;
+    left: -9999px;
+}
+.nav ul li:hover ul{
+    left: 0px;
+}
+.nav ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}.banner-cover{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    padding: 100px;
+    text-align: center;
+}
+.banner-text button{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 0px;
+    background: #000;
+    color: #fff;
+    margin: 0px 8px;
+}
+.about-logo img{
+    #000;width: 320px;
+    height: auto;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 10px 0px 
+}
+.about-text{
+    width: 520px;
+    height: auto;
+    padding: 0px 20px;
+}
+
+.about-text h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+
+}
+.about-text p{
+    font-size: 16px;
+    color: gray;
+    line-height: 22px;
+}
+.row{
+    overflow: auto;
+}
+.col{
+    float: left;
+}
+.about-section{
+    background: #dce7e5;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+.title{
+    width: 220px;
+    height: auto;
+    margin: 0 auto;
+}
+.title h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sun img{
+    width: 320px;
+    height: auto;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 10px 0px;
+    background-position: center;
+}
+.sun h2{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+}
+.sun p{
+    font-size: 16px;
+    color:black;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.jhao h2{
+text-align: center;
+margin: auto;
+width: 80%;
+font-weight: bold;
+text-transform: uppercase;
+border-bottom: 1px solid #fff;
+}
+.jhao p{
+    font-size: 16px;
+    color:black;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.gang h2{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+}
+.gang  p{
+    font-size: 16px;
+    color:black;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.sutki h2{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff; 
+}
+.sutki p{
+    font-size: 16px;
+    color:black;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.misri h2{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff; 
+}
+.misri p{
+    font-size: 16px;
+    color:black;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
